@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+# Calculadora React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Uma calculadora interativa desenvolvida em **React**, com funcionalidades básicas e avançadas como operações aritméticas, cálculo de fatorial, raiz quadrada, exponenciação, e cálculo de módulo. A calculadora também permite o uso de **π (Pi)** nas expressões e funciona de forma fluida, com design moderno e responsivo.
 
-## Available Scripts
+<p align="center">
+  <img src="/src/views/Imagem colada.png" alt="Calculadora" />
+</p>
 
-In the project directory, you can run:
+## Funcionalidades
 
-### `npm start`
+- **Operações Aritméticas**: Adição, Subtração, Multiplicação e Divisão.
+- **Fatorial**: Cálculo do fatorial de números inteiros não negativos.
+- **Raiz Quadrada**: Cálculo da raiz quadrada de números.
+- **Exponenciação (²)**: Eleva o número ao quadrado.
+- **Módulo (mod)**: Calcula o resto da divisão entre dois números.
+- **Número Pi (π)**: Permite a utilização do valor de Pi em operações.
+- **Operação de Percentagem**: Calcula a porcentagem do número atual.
+- **Entrada de Decimais**: Permite a inserção de números decimais.
+- **Limpeza de entrada**: A opção de limpar a tela e começar uma nova operação.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tecnologias Usadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: Para a construção da interface de usuário interativa.
+- **Styled Components**: Para estilização dos componentes da aplicação.
+- **JavaScript (ES6)**: Para lógica de operações matemáticas e controle de estado.
+- **Hooks do React**: Para gerenciamento de estado da aplicação (`useState`).
 
-### `npm test`
+## Instalação
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone o repositório**:
 
-### `npm run build`
+```bash
+git clone https://github.com/seu-usuario/calculadora-react.git 
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Navegue para o diretório do projeto**:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Copiar código**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+cd calculadora-react
+```
 
-### `npm run eject`
+1. **Instale as dependências**:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Copiar código**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
+4. **Inicie o servidor de desenvolvimento**:
+   
+**Copiar código**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm start
+```
+Isso abrirá a aplicação em ```http://localhost:3000```.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Como Usar
 
-## Learn More
+1. **Digite números**: Clique nos botões numéricos para inserir números.
+2. **Escolha uma operação**: Clique nos botões de operações como **+**, **-**, **x**, **/**, **mod**, **√**, etc.
+3. **Calcule o resultado**: Clique em **=** para obter o resultado da operação.
+4. **Limpe a tela**: Clique no botão **C** para limpar a tela e começar uma nova operação.
+5: **Use Pi**: Clique no botão **π** para inserir o valor de Pi nas operações.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Exemplo de uso
 
-### Code Splitting
+**Para calcular ```7 + 3```, basta clicar em**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```7```, ```+```, ```3```, ```=```
+**Para calcular ```5!``` (fatorial de 5)**:
 
-### Analyzing the Bundle Size
+```5```, ```!```, ```=```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Para calcular ```√4``` (raiz quadrada de 4)**:
 
-### Making a Progressive Web App
+```4```, ```√```, ```=```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Para calcular 2² (2 ao quadrado)**:
 
-### Advanced Configuration
+```2```, ```x²```, ```=``` 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Funcionalidades do Teclado
+- **Teclas Numéricas (0-9)**: Insere números na expressão.
+- **Operadores (+, -, x , /)**: Realiza operações matemáticas.
+- **Enter (=)**: Calcula e exibe o resultado da expressão.
+- **Escape (C)**: Limpa a tela e reinicia a expressão.
+- **Ponto Decimal (.)**: Adiciona um ponto decimal ao número.
+- **Percentual (%)**: Converte o número atual para percentual.
+- **Raiz Quadrada (r ou √)**: Calcula a raiz quadrada.
+- **Pi (p ou π)**: Insere o valor de π.
+- **Fatorial (! ou f)**: Calcula o fatorial do número.
+- **Módulo (m)**: Realiza o cálculo de módulo.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**Como Usar**
+**Digite números e operadores**.
+Pressione **Enter** ou **=** para calcular o resultado.
+Pressione **Escape** ou **C** para limpar a tela.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Desenvolvido por
+
+### Mizael Euclides Furtado Vaz
+
+ **Para Contribuição**:  
+
+1. **Fasa Fork deste repositório**.
+2. **Crie uma nova branch**: ```git checkout -b minha-feature```.
+3. **Faça as alterações necessárias e commit-as**: ```git commit -am 'Adiciona nova feature'```.
+4. **Envie para o repositório**: ```git push origin minha-feature```.
+5. **Abra um Pull Request para a branch principal**
+.
+
+ <p align="center">
+  <img src="/src/views/Imagem colada.png" alt="Calculadora" />
+</p>Substitua pelo link correto para uma demonstração visual da sua calculadora, se desejar incluir uma imagem.
