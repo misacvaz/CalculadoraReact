@@ -30,7 +30,7 @@ Uma calculadora interativa desenvolvida em **React**, com funcionalidades básic
 1. **Clone o repositório**:
 
 ```bash
-git clone https://github.com/seu-usuario/calculadora-react.git 
+git clone https://github.com/seu-usuario/CalculadoraReact.git 
 ```
 
 2. **Navegue para o diretório do projeto**:
