@@ -115,10 +115,4 @@ Pressione **Escape** ou **C** para limpar a tela.
 5. **Abra um Pull Request para a branch principal**
 .
 
- <p align="center">
-  <a href="https://misacvaz.github.io/CalculadoraReact/">
-    <img src="/src/views/Imagem colada.png" alt="Calculadora" />
-  </a>
-</p>
 
-</p>Substitua pelo link correto para uma demonstração visual da sua calculadora, se desejar incluir uma imagem.
